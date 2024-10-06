@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #e1ffad, #ffecb3);
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+
+.owner-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #4CAF50; /* Borde verde */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    width: 400px; /* Aumenta el ancho de la tarjeta */
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+    color: #4CAF50; /* Título verde */
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    border-bottom: 2px solid #4CAF50; /* Subrayado */
+    padding-bottom: 5px;
+    text-align: center; /* Centrar el texto */
+}
+
+.card p {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.card strong {
+    color: #000000; /* Color de texto fuerte */
+}
+
+.card p:last-of-type {
+    font-style: italic;
+    color: #000000;
+}
+
+.map-container {
+    margin-top: 20px; /* Espaciado superior para separar del contenido */
+    border-radius: 8px;
+    overflow: hidden; /* Para asegurar que el mapa tenga bordes redondeados */
+}
+
+.inicio {
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.inicio li {
+    list-style: none;
+}
+
+.inicio li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
